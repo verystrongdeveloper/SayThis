@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <style>
+      .bg { fill: #334155; }
+      .text { fill: #f59e0b; font-family: Arial, sans-serif; font-size: 8px; font-weight: bold; text-anchor: middle; }
+      .bubble { fill: #1e293b; stroke: #475569; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- 말풍선 배경 -->
+  <path class="bubble" d="M4 8c0-2.2 1.8-4 4-4h16c2.2 0 4 1.8 4 4v12c0 2.2-1.8 4-4 4h-8l-4 4v-4H8c-2.2 0-4-1.8-4-4V8z"/>
+
+  <!-- 텍스트 -->
+  <text class="text" x="16" y="18">말해</text>
+</svg>

@@ -4,7 +4,7 @@ import { generateTravelPhrases } from './services/geminiService';
 import Map from './components/Map';
 import PhraseCard from './components/PhraseCard';
 import Loader from './components/Loader';
-import { MapPinIcon, SparklesIcon, GlobeIcon, XIcon, KeyIcon, CheckIcon, ExternalLinkIcon, AlertTriangleIcon } from './components/icons';
+import { MapPinIcon, SparklesIcon, XIcon, KeyIcon, CheckIcon, ExternalLinkIcon, AlertTriangleIcon } from './components/icons';
 import PlacesAutocomplete from './components/PlacesAutocomplete';
 import ApiKeyModal from './components/ApiKeyModal';
 import WelcomeNotice from './components/WelcomeNotice';
@@ -136,9 +136,19 @@ const App: React.FC = () => {
       <header className="bg-slate-900/80 backdrop-blur-lg shadow-sm sticky top-0 z-20 border-b border-slate-700">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <GlobeIcon className="w-8 h-8 text-amber-400" />
+            <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <style>
+                  {`.bg { fill: #334155; }
+                   .text { fill: #f59e0b; font-family: Arial, sans-serif; font-size: 8px; font-weight: bold; text-anchor: middle; }
+                   .bubble { fill: #1e293b; stroke: #475569; stroke-width: 1; }`}
+                </style>
+              </defs>
+              <path className="bubble" d="M4 8c0-2.2 1.8-4 4-4h16c2.2 0 4 1.8 4 4v12c0 2.2-1.8 4-4 4h-8l-4 4v-4H8c-2.2 0-4-1.8-4-4V8z"/>
+              <text className="text" x="16" y="18">말해</text>
+            </svg>
             <h1 className="text-2xl font-bold text-slate-50 tracking-tight">
-              AI 여행 회화 생성기
+              이거말해
             </h1>
           </div>
         </div>
