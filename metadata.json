@@ -1,0 +1,5 @@
+{
+  "name": "AI Travel Phrase Generator",
+  "description": "An application for Korean travelers that uses AI to generate useful phrases for specific destinations selected on a map. The phrases are tailored to the location and provided in English, Korean pronunciation, and Korean translation.",
+  "requestFramePermissions": []
+}
