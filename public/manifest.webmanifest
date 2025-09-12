@@ -1,0 +1,19 @@
+{
+  "name": "이거말해 | AI Travel Phrase Generator",
+  "short_name": "이거말해",
+  "description": "여행지 지도를 선택하면 해당 지역에서 유용한 영어 문장을 AI가 생성하고, 한국어 발음과 번역도 함께 제공합니다.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "lang": "ko-KR",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

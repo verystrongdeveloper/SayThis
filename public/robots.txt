@@ -1,0 +1,10 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Optional: disallow internal or admin routes (uncomment and edit)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Sitemap location (replace with your actual domain)
+Sitemap: https://say-this.vercel.app/sitemap.xml
